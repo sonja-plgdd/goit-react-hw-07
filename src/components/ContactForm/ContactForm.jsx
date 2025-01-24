@@ -20,7 +20,7 @@ const ContactForm = () => {
   const handleSubmit = (values, { resetForm }) => {
     dispatch(
       addContact({
-        id: crypto.randomUUID(),
+        // id: crypto.randomUUID(),
         name: values.name,
         number: values.number,
       })
